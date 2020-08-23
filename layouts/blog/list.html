@@ -1,7 +1,7 @@
 {{ define "main" }}
 <div class="container max-800px">
     <div class="section">
-        <h1 class="title is-2 has-text-centered">{{ .Title }}</h1>
+        <h1 class="title is-2 has-text-centered">{{ .Title | emojify }}</h1>
         <h5 class="title is-5">Navigation:</h5>
         <div class="my-4">
             {{ range $category := .Site.Params.emoji_c }}
