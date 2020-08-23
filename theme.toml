@@ -3,16 +3,16 @@
 
 name = "Zorby"
 license = "MIT"
-licenselink = "https://github.com/morgankenyon/zorby"
-description = "A modern personal blog theme for Hugo"
-homepage = "https://morgankenyon.com/"
+licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
+description = ""
+homepage = "http://example.com/"
 tags = []
 features = []
 min_version = "0.41.0"
 
 [author]
-  name = "Morgan Kenyon"
-  homepage = "https://morgankenyon.com"
+  name = ""
+  homepage = ""
 
 # If porting an existing theme
 [original]

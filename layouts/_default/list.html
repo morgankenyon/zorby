@@ -1,0 +1,13 @@
+{{ define "main" }}
+<div class="container max-800px">
+    <div class="section">
+        <h1 class="title is-2 has-text-centered">{{ .Title }}</h1>
+        {{ .Content }}
+        {{ range .Pages }}
+        <div class="py-2">
+            <a class="is-link has-text-weight-semibold is-size-4" href="{{ .Permalink }}">{{ .Title }}</a>
+        </div>
+        {{ end }}
+    </div>
+</div>
+{{ end }}
