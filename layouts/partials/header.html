@@ -3,7 +3,7 @@
     <div class="container max-800px">
       <div class="navbar-brand">
         <a class="navbar-item is-size-3" href="/">
-          {{ printf ":%s:" .Site.Params.logoEmoji | emojify }}
+          {{ printf ":%s:" (.Site.Params.logoEmoji | default "clap" )| emojify }}
         </a>
 
         <a
