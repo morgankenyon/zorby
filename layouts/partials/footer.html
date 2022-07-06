@@ -1,7 +1,7 @@
 <footer>
     <div class="container mb-6">
         <div class="has-text-centered">
-            <div class="title is-5">{{ printf ":%s:" (.Site.Params.footeremoji | default "fire") | emojify }} {{ .Site.Params.footerText | default "Zorby Theme" }} © {{ .Now.Format "2006" }}</div>
+            <div class="title is-5">{{ printf ":%s:" (.Site.Params.footeremoji | default "fire") | emojify }} {{ .Site.Params.footerText | default "Zorby Theme" }} © {{ now.Format "2006" }}</div>
             {{ if isset .Site.Params "twitter" }}
             <div>Follow me on Twitter <a target="_blank" href="https://twitter.com/{{ .Site.Params.twitter }}">@{{ .Site.Params.twitter }}</a></div>
             {{ end }}
